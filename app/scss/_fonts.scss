@@ -1,0 +1,37 @@
+@import "_mixins/font-face";
+
+//@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+//@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+
+
+@font-face {
+  font-family: 'CirceLight';
+  src: url("../fonts/CirceLight/Circe-Light.eot");
+  src: url("../fonts/Circe-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/CirceLight/Circe-Light.woff") format("woff"), url("../fonts/CirceLight/Circe-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CirceBold';
+  src: url("../fonts/CirceBold/Circe-Bold.eot");
+  src: url("../fonts/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CirceBold/Circe-Bold.woff") format("woff"), url("../fonts/CirceBold/Circe-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINProRegular';
+  src: url("../fonts/DinproRegular/DINPro.eot");
+  src: url("../fonts/DINPro.eot?#iefix") format("embedded-opentype"), url("../fonts/DinproRegular/DINPro.woff") format("woff"), url("../fonts/DinproRegular/DINPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINProBold';
+  src: url("../fonts/DinproBold/DINPro-Bold.eot");
+  src: url("../fonts/DINPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/DinproBold/DINPro-Bold.woff") format("woff"), url("../fonts/DinproBold/DINPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
